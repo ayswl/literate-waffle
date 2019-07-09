@@ -90,6 +90,3 @@ group by
 	1,2,4,6
 order by
 	1,2
-  
---group results like in the sample shown
---add the "detail" header on top of the two columns that can't be grouped (if that's even possible)
