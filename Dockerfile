@@ -4,8 +4,6 @@ COPY requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY $export_file ni.sql
-
-COPY ni.py /
+COPY ni.py ni.sql /
 
 CMD ["python", "./ni.py"]
