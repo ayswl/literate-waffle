@@ -8,7 +8,7 @@ args = vars(ap.parse_args())
 
 def main(start_date, end_date):
 
-    sql = 'script.sql'
+    sql = 'ni.sql'
 
     fd = open(sql, 'r')
     query = fd.read()
